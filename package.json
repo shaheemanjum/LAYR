@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testcases": "./node_modules/.bin/cypress run --headed --spec ./cypress/e2e/testcases/*.js --browser electron --reporter mocha-allure-reporter --env allure=true",
-    "testcases_headless": "./node_modules/.bin/cypress run --spec ./cypress/e2e/testcases/*.js --reporter mocha-allure-reporter --env allure=true",
+    "testcases": "./node_modules/.bin/cypress run --headed --spec ./cypress/e2e/sequenced.cy.js --browser electron --reporter mocha-allure-reporter --env allure=true",
+    "testcases_headless": "./node_modules/.bin/cypress run --spec ./cypress/e2e/sequenced.cy.js --reporter mocha-allure-reporter --env allure=true",
     "gen-allure-report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
     "finalrun": "npm run testcases && npm run gen-allure-report",
     "finalrun_headless": "npm run testcases_headless && npm run gen-allure-report"

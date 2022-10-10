@@ -1,0 +1,5 @@
+import '../e2e/testcases/landingPage.cy'
+import '../e2e/testcases/signUpPage.cy'
+import '../e2e/testcases/Login.cy'
+import '../e2e/testcases/dashBoardPage.cy'
+import '../e2e/testcases/hypothesisPage.cy'
