@@ -3,16 +3,15 @@
 describe('DashBoard Page', () => {
 
     before(() => {
-        cy.visit('')
         cy.fixture("data").then((jsondata) => {
 
             globalThis.data = jsondata
         })
-        
+
     })
 
-    beforeEach(()=>{
-
+    beforeEach(() => {
+        cy.visit('')
         cy.Login(data.Login.username, data.Login.pwd, data.DashBoard.headerMsg)
     })
 
