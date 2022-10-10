@@ -1,0 +1,54 @@
+{
+    "LandingPage": {
+        "freeTrialText": "Start a free trial"
+    },
+    "SignUpPage": {
+        "workEmail": "shaheemanjum302@gmail.com",
+        "freeTrialAccountText": "create a free trial account",
+        "accountAlreadyRegistered": "An account with this email already exists. "
+    },
+    "Login": {
+        "username": "shaheemanjum302@gmail.com",
+        "pwd": "Winter@123"
+    },
+    "DashBoard": {
+        "headerMsg": "Hi Shaheem Anjum, here's an overview of your experience optimization journey",
+        "navArray": [
+            "Testing",
+            "Insights",
+            "Personalize",
+            "Deploy",
+            "Data360",
+            "Plan",
+            "Configurations",
+            "Services",
+            "Updates"
+        ]
+    },
+    "Hypotheses": {
+        "hypothesesHeader": "Hypotheses",
+        "hypothesesData": [
+            {
+                "dataSet1": {
+                    "expectThat": "Everything is good",
+                    "willAddress": "In next sprint",
+                    "Label": "Label1"
+                }
+            },
+            {
+                "dataSet2": {
+                    "expectThat": "Winter is coming",
+                    "willAddress": "Viva la raza",
+                    "Label": "Label2"
+                }
+            },
+            {
+                "dataSet3": {
+                    "expectThat": "House of dragon",
+                    "willAddress": "Game of throne",
+                    "Label": "Label3"
+                }
+            }
+        ]
+    }
+}

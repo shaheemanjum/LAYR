@@ -1,0 +1,39 @@
+{
+    "LandingPage": {
+        "startFreTrialLink": "a.text-link"
+    },
+    "SignUpPage": {
+        "workEmail": "#page-v1-step1-email",
+        "signUpButton": "#page-free-trial-signup-form-step1>div:nth-child(5)>button"
+    },
+    "Login": {
+        "email": "#login-username",
+        "pwd": "#login-password",
+        "signInButton": "#js-login-btn"
+    },
+    "DashBoard": {
+        "headerMsg": "p.page-sub-title",
+        "hypotheses": ":nth-child(7) > .navbar-sub-group > :nth-child(2) > .navbar-sub-group-btn > .navbar-btn-label",
+        "plan": "button[data-qa='nav-main-plan']"
+    },
+    "Hypotheses": {
+        "hypothesesHeader": ".page-heading > span.ng-scope",
+        "createHypothesesButton": "div.ng-animated.anim-main-content-fade.ng-scope>div>div>div>button",
+        "createHypoPlusIcon": "button[data-qa='btn-create']",
+        "newHypothesesHeader": "#modal-header-1>modal-header>div>h4>span",
+        "expectThatInputBox": "#create-hypothesis-solution",
+        "willAddressInputBox": "#create-hypothesis-problem",
+        "labelsInputBox": "input[placeholder='E.g. Homepage']",
+        "confidenceRatingCgart": "div[data-qa='prioritization-score']>div:nth-child(1)>div>ul[name='potential']>li",
+        "importanceRatingCgart": "div[data-qa='prioritization-score']>div:nth-child(1)>div>ul[name='importance']>li",
+        "easeRatingCgart": "div[data-qa='prioritization-score']>div:nth-child(1)>div>ul[name='ease']>li",
+        "createHypoButton": "button[data-qa='btn-submit-hypothesis-creation-form']",
+        "listViewLink": "a[data-qa='hypothesis-list-view']",
+        "sortByDropDown": "div.select-box-single-button.select-box-full-button",
+        "datePicker": "div.date-range-picker.has-caret.select.select--full>span>span>span",
+        "selectedDate": "#main-container > div.grid-container.section-list-wrapper.ng-scope > div.grid-container-item.section-right.ng-scope > div > div > div:nth-child(3) > div > span > div > div.angular-date-range-picker__timesheet > div:nth-child(2) > table > tbody > tr:nth-child(4) > td.ng-scope.angular-date-range-picker__calendar-day.angular-date-range-picker__calendar-day-selected > div",
+        "calenderFilterButton": "div.angular-date-range-picker__buttons>a:nth-child(1)",
+        "filterByBacklog": "div[data-qa='filter-section']>ul[data-qa='sehukejizo']>li:nth-child(1)>label>span:nth-child(2)",
+        "hypothesesList": "div[data-qa='womiheyata']>ul>li[ng-repeat='hypothesis in planData.hypotheses']"
+    }
+}
