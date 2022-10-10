@@ -1,0 +1,23 @@
+{
+  "name": "layr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testcases": "./node_modules/.bin/cypress run --headed --spec ./cypress/e2e/testcases/*.js --browser electron --reporter mocha-allure-reporter --env allure=true",
+    "gen-allure-report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "finalrun": "npm run testcases && npm run gen-allure-report"
+  },
+  "author": "ANJUM",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.18.1",
+    "chai": "^4.3.6",
+    "cypress": "^10.9.0",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mochawesome": "^7.1.3"
+  }
+}
