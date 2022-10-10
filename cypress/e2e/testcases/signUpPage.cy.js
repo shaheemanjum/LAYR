@@ -32,5 +32,17 @@ describe('SignUP', () => {
 
     })
 
+    it('Fill registration form', () => {
+
+        cy.get(locators.LandingPage.startFreTrialLink).click()
+        cy.get(locators.SignUpPage.workEmail).type(data.SignUpPage.newEmail)
+        cy.get(locators.SignUpPage.signUpButton).click().wait(3000)
+        cy.fillRegistrationForm(data.SignUpPage)
+
+
+
+
+    })
+
 
 })

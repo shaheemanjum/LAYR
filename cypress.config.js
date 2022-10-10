@@ -3,7 +3,8 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   projectId: 'bmd3y2',
  
-  defaultCommandTimeout: 6000,
+  defaultCommandTimeout: 10000,
+  chromeWebSecurity:false,
   e2e: {
     baseUrl: 'https://app.vwo.com/#/login',
     setupNodeEvents(on, config) {

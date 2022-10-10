@@ -77,7 +77,7 @@ Cypress.Commands.add('verifyHypothesesSearch', () => {
     cy.get(locators.DashBoard.hypotheses, { timeout: 12000 }).click()
     cy.get(locators.Hypotheses.hypothesesHeader).should('be.visible')
     cy.wait(2000)
-    cy.get(locators.Hypotheses.listViewLink,{timeout:10000}).click({force:true})
+    cy.get(locators.Hypotheses.listViewLink, { timeout: 10000 }).click({ force: true })
     cy.wait(2000)
     cy.get(locators.Hypotheses.sortByDropDown).click()
     cy.contains('Score').click()
@@ -88,5 +88,16 @@ Cypress.Commands.add('verifyHypothesesSearch', () => {
     cy.wait(2000)
     cy.get(locators.Hypotheses.hypothesesList).should('be.visible')
 
+
+})
+
+
+Cypress.Commands.add('fillRegistrationForm', (signUpData) => {
+
+    cy.get(locators.SignUpPage.firstName,{timeout:20000}).type(signUpData.firstName)
+    cy.get(locators.SignUpPage.lastName).type(signUpData.lastName)
+    cy.get(locators.SignUpPage.phoneNumber).type(signUpData.phone)
+    cy.get(locators.SignUpPage.pwd).type(signUpData.pwd)
+    cy.get(locators.SignUpPage.createAccount).eq(1).click({ multiple: true })
 
 })

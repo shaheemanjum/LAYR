@@ -5,7 +5,12 @@
     "SignUpPage": {
         "workEmail": "shaheemanjum302@gmail.com",
         "freeTrialAccountText": "create a free trial account",
-        "accountAlreadyRegistered": "An account with this email already exists. "
+        "accountAlreadyRegistered": "An account with this email already exists. ",
+        "firstName": "Alex",
+        "lastName": "Darry",
+        "phone": "9876543211",
+        "pwd": "Winter@321",
+        "newEmail":"jabbu@gmail.com"
     },
     "Login": {
         "username": "shaheemanjum302@gmail.com",

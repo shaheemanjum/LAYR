@@ -4,7 +4,12 @@
     },
     "SignUpPage": {
         "workEmail": "#page-v1-step1-email",
-        "signUpButton": "#page-free-trial-signup-form-step1>div:nth-child(5)>button"
+        "signUpButton": "#page-free-trial-signup-form-step1>div:nth-child(5)>button",
+        "firstName": "#page-v1-fname",
+        "lastName": "#page-v1-lname",
+        "phoneNumber": "#page-v1-pnumber",
+        "pwd": "#page-v1-pwd",
+        "createAccount": "button[data-qa='page-su-submit']"
     },
     "Login": {
         "email": "#login-username",
